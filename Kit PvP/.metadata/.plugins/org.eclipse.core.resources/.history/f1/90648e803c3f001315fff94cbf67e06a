@@ -14,13 +14,6 @@ import org.bukkit.potion.PotionEffectType;
 public class Main extends JavaPlugin{
 
 	public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args){
-		
-		if(commandLabel.equalsIgnoreCase("kits")) {
-			Player player = (Player) sender;
-			player.sendMessage(ChatColor.GOLD + "Choose a kit by typing /kitname");
-			player.sendMessage(ChatColor.WHITE + "/pvp");
-		}
-		
 		if(commandLabel.equalsIgnoreCase("pvp")) {
 			Player player = (Player) sender;
 			player.sendMessage(ChatColor.GOLD + "Stranded Kits > " + ChatColor.WHITE + "you have chosen kit" + ChatColor.GOLD + "PvP");

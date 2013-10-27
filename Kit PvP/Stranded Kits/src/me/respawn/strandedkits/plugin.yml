@@ -1,0 +1,9 @@
+name: Stranded Kits
+version: 1.0
+main: me.respawn.strandedkits.Main
+author: Respawn
+description: A Kit PvP Plugin!
+
+commands:
+     kits:
+     pvp:
