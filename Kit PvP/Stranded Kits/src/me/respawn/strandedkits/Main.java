@@ -28,6 +28,7 @@ public class Main extends JavaPlugin{
 			player.getInventory().clear();
 			ItemStack woodsword = new ItemStack(Material.WOOD_SWORD);
 			woodsword.addEnchantment(Enchantment.DAMAGE_ALL, 1);
+			player.getInventory().addItem(woodsword);
 			player.getInventory().setHelmet(new ItemStack(Material.IRON_HELMET));
 			player.getInventory().setChestplate(new ItemStack(Material.IRON_CHESTPLATE));
 			player.getInventory().setLeggings(new ItemStack(Material.IRON_LEGGINGS));
