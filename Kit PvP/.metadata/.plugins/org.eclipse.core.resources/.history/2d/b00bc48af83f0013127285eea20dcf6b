@@ -1,0 +1,5 @@
+name: sDrops
+version: 1.0
+main: me.respawn.skits.Drops
+author: Respawn
+description: A Drop Management Plugin!
