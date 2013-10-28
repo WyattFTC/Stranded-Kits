@@ -1,0 +1,33 @@
+package me.respawn.sdrops;
+
+import org.bukkit.Bukkit;
+import org.bukkit.entity.Item;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.entity.ItemSpawnEvent;
+import org.bukkit.event.player.PlayerDropItemEvent;
+import org.bukkit.plugin.java.JavaPlugin;
+
+public class Drops extends JavaPlugin implements Listener{
+	
+	public void onEnable() {
+		getServer().getPluginManager().registerEvents(this, this);
+	}
+	
+	@EventHandler
+	public void onSceduleItemRemove(PlayerDropItemEvent event){
+	    final Item item = event.getItemDrop();
+	 
+	    //Schedule remove of the item in 3 Seconds.
+	    //We still need the Plugin to schedule to
+	    Bukkit.getScheduler().scheduleSyncDelayedTask(plugin, new Runnable() {
+	 
+	        @Override
+	        public void run() {
+	            if(item != null && !item.isDead() && item.isValid()){
+	                item.remove();
+	            }
+	        }
+	    }, 3 * 20);
+	}
+	}

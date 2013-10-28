@@ -1,0 +1,5 @@
+package me.respawn.shunger;
+
+public class Hunger {
+
+}

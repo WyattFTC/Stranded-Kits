@@ -1,19 +1,6 @@
 INDEX VERSION 1.126+C:\Users\Wyatt Quinlan\Documents\GitHub\Stranded-Kits\Kit PvP\.metadata\.plugins\org.eclipse.jdt.core
-30765161.index
-1115467115.index
-3065916431.index
-163172794.index
-1697886153.index
+1028808737.index
+495780783.index
 4256186583.index
-3133528496.index
-4041092966.index
-1856027421.index
-4108727661.index
-1498219845.index
-4155206848.index
-1995173708.index
-305854171.index
-514555306.index
-1299022128.index
-3974580528.index
+1492305551.index
 3967951854.index

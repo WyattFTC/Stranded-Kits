@@ -1,0 +1,11 @@
+package me.respawn.sdrops;
+
+import org.bukkit.event.entity.ItemSpawnEvent;
+import org.bukkit.plugin.java.JavaPlugin;
+
+public class Drops extends JavaPlugin{
+	
+	public void onItemSpawn(ItemSpawnEvent e) {
+		e.getEntity().remove();
+	}
+}

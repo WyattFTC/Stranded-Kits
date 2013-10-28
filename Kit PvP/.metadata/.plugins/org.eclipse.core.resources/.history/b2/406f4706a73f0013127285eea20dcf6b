@@ -1,0 +1,10 @@
+name: sKits
+version: 1.0
+main: me.respawn.skits.Kits
+author: Respawn
+description: A Kit PvP Plugin!
+
+commands:
+     kits:
+     kit:
+     pvp:
