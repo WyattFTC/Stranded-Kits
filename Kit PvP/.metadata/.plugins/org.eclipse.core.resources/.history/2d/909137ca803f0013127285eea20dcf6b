@@ -27,7 +27,7 @@ public class Damage extends JavaPlugin implements Listener{
 	 
 	ItemStack hand = player.getInventory().getItemInHand();
 	if (hand.getItemMeta().hasEnchants()) { //The item has enchants
-	event.setDamage(3.0);
+	event.setDamage(1.5);
 	}
 	}
 	}
