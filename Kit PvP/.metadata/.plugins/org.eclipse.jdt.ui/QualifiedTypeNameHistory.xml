@@ -2,13 +2,21 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="org.bukkit.potion.PotionEffect"/>
 <fullyQualifiedTypeName name="org.bukkit.enchantments.Enchantment"/>
-<fullyQualifiedTypeName name="org.bukkit.event.block.Action"/>
-<fullyQualifiedTypeName name="org.bukkit.event.Listener"/>
 <fullyQualifiedTypeName name="org.bukkit.Server"/>
 <fullyQualifiedTypeName name="org.bukkit.plugin.PluginManager"/>
+<fullyQualifiedTypeName name="org.bukkit.craftbukkit.Main"/>
+<fullyQualifiedTypeName name="org.bukkit.event.entity.PlayerDeathEvent"/>
+<fullyQualifiedTypeName name="net.minecraft.server.v1_6_R3.EntityPlayer"/>
+<fullyQualifiedTypeName name="org.bukkit.event.entity.EntityDamageByEntityEvent"/>
+<fullyQualifiedTypeName name="org.bukkit.plugin.java.JavaPlugin"/>
 <fullyQualifiedTypeName name="org.bukkit.event.EventHandler"/>
 <fullyQualifiedTypeName name="org.bukkit.event.player.PlayerInteractEvent"/>
-<fullyQualifiedTypeName name="org.bukkit.craftbukkit.Main"/>
-<fullyQualifiedTypeName name="org.bukkit.plugin.java.JavaPlugin"/>
+<fullyQualifiedTypeName name="org.bukkit.entity.Player"/>
+<fullyQualifiedTypeName name="org.bukkit.event.block.Action"/>
+<fullyQualifiedTypeName name="org.bukkit.Material"/>
+<fullyQualifiedTypeName name="org.bukkit.inventory.ItemStack"/>
+<fullyQualifiedTypeName name="org.bukkit.entity.Entity"/>
+<fullyQualifiedTypeName name="org.bukkit.event.Listener"/>
+<fullyQualifiedTypeName name="org.bukkit.plugin.Plugin"/>
 <fullyQualifiedTypeName name="org.bukkit.Bukkit"/>
 </qualifiedTypeNameHistroy>

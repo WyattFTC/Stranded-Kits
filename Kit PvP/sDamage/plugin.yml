@@ -1,0 +1,5 @@
+name: sDamage
+version: 1.0
+main: me.respawn.sdamage.Damage
+author: Respawn
+description: A Damage Control Plugin!

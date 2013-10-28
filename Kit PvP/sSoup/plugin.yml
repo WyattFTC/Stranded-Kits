@@ -1,0 +1,5 @@
+name: sSoup
+version: 1.0
+main: me.respawn.ssoup.Soup
+author: Respawn
+description: An Instant Soup Plugin!
